@@ -1,0 +1,12 @@
+<resources>
+<style name="a" parent="c">
+<item name="android:statusBarColor">@color/b</item><item name="android:windowLightStatusBar">true</item><item name="android:navigationBarColor">@color/d</item><item name="android:windowBackground">@color/b</item> <item name="android:windowAnimationStyle">@style/d</item>    <item name="android:windowContentTransitions">true</item>   
+</style>
+
+<style name="b" parent="Theme.AppCompat.Light.NoActionBar"/>
+
+<style name="c" parent="b">
+<item name="colorPrimary">@color/a</item><item name="colorPrimaryDark">@color/b</item><item name="colorAccent">@color/c</item>
+</style>
+<style name="d" ><item name="android:activityOpenEnterAnimation">@android:anim/activity_open_enter</item><item name="android:activityOpenExitAnimation">@android:anim/activity_open_exit</item><item name="android:activityCloseEnterAnimation">@android:anim/activity_close_enter</item><item name="android:activityCloseExitAnimation">@android:anim/activity_close_exit</item></style>
+</resources>
